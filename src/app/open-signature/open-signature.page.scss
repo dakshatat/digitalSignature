@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+    color: darkslategrey;
+    font-size: xx-large;
+    font-family: initial;
+}
+.back_button { 
+    display: inline-block; padding: 5px; width: 40px; height: 45px; text-align: left; position: absolute; left: 20px; top: -55px;
+}
+.ujb_btn_blue {
+    /*display: block; */
+    width: 100%;
+    padding: 0 15px;
+    border-radius: 24.5px;
+    height: 35px;
+    background-color: darkgray;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    margin-right: 10px;
+  }
+  .imageDiv{
+    width: 100%;
+    /* height: 271PX; */
+    padding-top: 20px;
+  }
+  .image{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  

@@ -1,0 +1,8 @@
+{
+  "name": "digitalsignature",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

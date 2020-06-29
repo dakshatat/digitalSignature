@@ -1,0 +1,23 @@
+<h1 class="text-center">Angular 9 Signature Pad</h1>
+<div class="signature-pad">
+  <div class="signature-pad--body">
+    <canvas #sPad width="325" height="400" style="touch-action: none;"></canvas>
+  </div>
+</div>
+
+<section class="container-fluid">
+    <div class="row">
+      <div class="col-6 buttons" >
+        <button class="ujb_btn_blue" (click)="clear()">Clear</button>
+        <button class="ujb_btn_blue" (click)="undo()">Undo</button>
+        <button class="ujb_btn_blue" (click)="saveImage()">Save</button>
+        <button class="ujb_btn_blue" (click)="changeColor()">Change Color</button>
+        <button class="ujb_btn_blue" (click)="navigateToNext()">Next Page</button>
+      </div>
+      <!-- <div class="col-6">
+        <button class="ujb_btn_blue" (click)="savePNG()">PNG</button>
+        
+        <button class="ujb_btn_blue" (click)="saveSVG()">SVG</button>
+      </div> -->
+    </div>
+</section>
